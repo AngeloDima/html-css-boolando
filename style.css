@@ -7,15 +7,60 @@
 header{
     width: 100vw;
     height: 6vh;
-    background-color: orange;
+    background-color: #ff6900;
 }
 
 
 .header-content{
     width: 60%;
     height: 100%;
-    background-color: rgb(160, 104, 0);
+    /* background-color: rgb(160, 104, 0); */
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 220px;
+    height: 55px;
+    /* background-color: rebeccapurple; */
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+
+
+
+.link-a{
+    height: 100%;
+    /* background-color: red; */
+    line-height: 350%;
+}
+
+.link-a a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+.icone{
+    height: 35px;
+    margin-top: 17px;
+}
+
+
+.icone img{
+    max-height: 50%;
+    padding: 0px 0px 0px 10px;
+}
+
+
+.headerimg{
+    max-height: 50%;
 }
 
 /* --------Main------ */
@@ -49,7 +94,14 @@ header{
 
 .riga-1 img, .riga-2 img{
     max-height: 85%;
+   
 }
+
+.non img{
+
+}
+
+
 
 .foto1{
     position: relative;
@@ -130,3 +182,10 @@ header{
 /* ---Elementi e colori END--- */
 
 /* --------Main END------ */
+
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(1, 41, 41);
+}
