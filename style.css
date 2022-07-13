@@ -18,7 +18,7 @@ header{
     margin: auto;
 }
 
-
+/* --------Main------ */
 .conteiner{
     width: 100vw;
     height: 130vh;
@@ -42,6 +42,7 @@ header{
     display: flex;
     justify-content: space-between;
     position: relative;
+    
 }
 
 .riga-1 img, .riga-2 img{
@@ -52,28 +53,59 @@ header{
     position: relative;
 }
 
+
+/* ---Elementi e colori--- */
+
 .red{
     color: red;
 }
+
+
 
 .Vecchio{
     text-decoration: line-through;
     color: rgb(46 46 46 / 88%);
 }
 
+
+
 .bollino-rosso{
     padding: 2px;
     background-color: rgb(201, 0, 0);
     position: absolute;
-    bottom: 22%;
-    
+    bottom: 22%;  
 }
+
+
+
+.bollino-verde1{
+    padding: 2px;
+    background-color: rgb(0, 206, 62);
+    position: absolute;
+    bottom: 22%;
+
+}
+
+
 
 .bollino-verde2{
     padding: 2px;
     background-color: rgb(0, 206, 62);
     position: absolute;
     bottom: 22%;
-    left: 13%;
-    
+    left: 13%; 
 }
+
+
+.foto1 p, .foto2 p{
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}
+
+.foto1 a, .foto2 p{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* ---Elementi e colori END--- */
+
+/* --------Main END------ */
