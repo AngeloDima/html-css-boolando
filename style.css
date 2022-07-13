@@ -3,3 +3,16 @@
     padding: 0;
     margin: 0;
 }
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: orange;
+}
+
+.footer-content{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(160, 104, 0);
+    margin: auto;
+}
