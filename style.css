@@ -26,6 +26,20 @@
 }
 
 
+.Hover{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    visibility: hidden;
+    padding: 0px 10px;
+
+
+}
+
+
+.card:hover .Hover{
+    visibility: visible;
+}
 
 
 
@@ -110,10 +124,8 @@ main{
     padding: 0 10px;
 }
 
-.card img{
+.card img, .Hover img{
     height: 88%;
-    
-    
 }
 
 
