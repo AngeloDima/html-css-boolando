@@ -11,7 +11,7 @@
 
 
 
-
+/* Conteiner */
 
 .conteiner{
     max-width: 1200px;
@@ -23,7 +23,24 @@
 .conteinerH{
     max-width: 1200px;
     margin: auto;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
+.lin{
+    line-height: px;
+}
+
+.Icon.mar{
+
+}
+
+.Icon{
+    line-height: 75px;
+}
+
+/* Conteiner END */
 
 
 .Hover{
@@ -44,7 +61,7 @@
 
 
 
-
+/* Utility */
 
 img{
     width: 100%;
@@ -81,14 +98,14 @@ img{
     margin-bottom: 50px;
 }
 
-
+/* Utility END */
 
 
 /* ----header---- */
 
 header{
     height: 80px;
-    background-color: orange;
+    background-color: #ff6900;
     
 }
 
@@ -96,12 +113,12 @@ header{
 
 
 #Logo{
-    width: calc(100% / 3);
+    height: 50px;
 }
 
 #Logo img{
     width: auto;
-    height: 75px;
+    height: 50px;
 }
 
 
@@ -115,12 +132,7 @@ main{
 
 .card{
     width: calc(100% / 3);
-    /* background-color: blue; */
-    flex-shrink: 0;
     position: relative;
-    
-     
-
     padding: 0 10px;
 }
 
@@ -129,10 +141,7 @@ main{
 }
 
 
-.info{
-    /* background-color: cadetblue; */
-}
-
+/* Bollini */
 
 .bollini{
     position: absolute;
@@ -161,19 +170,18 @@ main{
     background-color: white;
 }
 
-
 .card:hover .Cuore{
     color: red;
 }
 
+/* Bollini END */
 
-
-
+/* ---Footer--- */
 
 
 footer{
-    height: 75px;
-    background-color: rgb(41, 34, 70);
+    height: 100px;
+    background-color: #1a1a1a;
 }
 
 
