@@ -162,6 +162,10 @@ main{
 }
 
 
+.card:hover .Cuore{
+    color: red;
+}
+
 
 
 
